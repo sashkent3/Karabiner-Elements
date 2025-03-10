@@ -3547,5 +3547,21 @@
                 "key_code": "illumination_increment"
             }
         ]
-    }
+    },
+    {
+        "label": "wacom_display_toggle_1",
+        "data": [
+            {
+                "consumer_key_code": "wacom_display_toggle_1"
+            }
+        ]
+    },
+    {
+        "label": "wacom_display_toggle_2",
+        "data": [
+            {
+                "consumer_key_code": "wacom_display_toggle_2"
+            }
+        ]
+    },
 ]
