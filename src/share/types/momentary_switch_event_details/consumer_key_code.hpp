@@ -141,6 +141,10 @@ constexpr std::pair<const mapbox::eternal::string, const pqrs::hid::usage::value
     {"ac_zoom_in", pqrs::hid::usage::consumer::ac_zoom_in},
     // Do not include ac_pan since it is used as mouse wheel, not button.
 
+    // WACOM
+    {"wacom_display_toggle_1", pqrs::hid::usage::value_t(0x943)},
+    {"wacom_display_toggle_2", pqrs::hid::usage::value_t(0x0913)},
+
     // Aliases
     {"fastforward", pqrs::hid::usage::consumer::fast_forward},
 };
